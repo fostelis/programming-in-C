@@ -8,7 +8,7 @@ int main() {
         sum += number;
         k++;
     }
-    double average = sum / count;
+    double average = sum / k;
     printf("%.2lf\n", average);
     return 0;
 }
